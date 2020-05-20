@@ -2,7 +2,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class AccountExample {
-    private static final String ACCOUNT_REGEX = "[a-z0-9_]{6,}";
+    private static final String ACCOUNT_REGEX = "^[a-z0-9_]{6,}$";
 
     public AccountExample() {
     }
